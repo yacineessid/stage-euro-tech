@@ -150,7 +150,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def hello_world():
     return "<p>Hello, World!</p>"
 
-@app.route("/about")
+@app.route("/")
 def about_page():
     return render_template('index.html')
 
